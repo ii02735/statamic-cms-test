@@ -1,0 +1,4 @@
+name: docker
+super: true
+id: 518abf9f-96b4-45e1-a442-3ec4220cb030
+password_hash: $2y$10$4Hu1AeRSF9h95UytlaGFYuUvMaAMQ6fgexFZQi7VAHR33lhdsuiWK
