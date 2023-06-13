@@ -1,0 +1,46 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: content
+            field:
+              type: markdown
+              localizable: true
+          -
+            handle: taxonomy_terms_fields
+            field:
+              mode: default
+              create: true
+              taxonomies:
+                - tags
+                - test-tags
+              type: terms
+              icon: taxonomy
+              display: 'Taxonomy Terms Field'
+              handle: taxonomy_terms_field
+              listable: hidden
+              instructions_position: above
+              hide_display: false
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              required: true
+              validate:
+                - required
+title: Tags2

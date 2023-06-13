@@ -1,0 +1,6 @@
+title: Articles
+taxonomies:
+  - tags
+revisions: false
+route: '/articles/{slug}'
+date: true
